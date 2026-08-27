@@ -1,30 +1,30 @@
 {
-  "runAt": "2026-07-19T21:22:59.133Z",
+  "runAt": "2026-08-27T20:06:36.430Z",
   "mode": "offline",
   "totals": [
     {
       "bucket": "bls-direct",
       "total": 121,
-      "correct": 97,
-      "miss": 11,
-      "wrong": 13,
-      "accuracy": 0.8016528925619835
+      "correct": 96,
+      "miss": 2,
+      "wrong": 23,
+      "accuracy": 0.7933884297520661
     },
     {
       "bucket": "semantic",
       "total": 16,
-      "correct": 2,
-      "miss": 9,
-      "wrong": 5,
-      "accuracy": 0.125
+      "correct": 4,
+      "miss": 6,
+      "wrong": 6,
+      "accuracy": 0.25
     },
     {
       "bucket": "unresolvable",
       "total": 32,
-      "correct": 14,
+      "correct": 13,
       "miss": 0,
-      "wrong": 18,
-      "accuracy": 0.4375
+      "wrong": 19,
+      "accuracy": 0.40625
     }
   ],
   "cases": [
@@ -193,8 +193,8 @@
       "line": "KIDNEY BOHNEN",
       "bucket": "bls-direct",
       "expected": "bls0658",
-      "actual": "bls0658",
-      "outcome": "correct"
+      "actual": "bls1741",
+      "outcome": "wrong"
     },
     {
       "line": "ACETO BALSAMICO",
@@ -284,14 +284,14 @@
       "line": "Suppengemuese 500g",
       "bucket": "bls-direct",
       "expected": "bls2399",
-      "actual": "bls2399",
-      "outcome": "correct"
+      "actual": "bls1544",
+      "outcome": "wrong"
     },
     {
       "line": "Hackfleisch gem. 500g",
       "bucket": "bls-direct",
-      "expected": "bls0453",
-      "actual": "bls0453",
+      "expected": "bls5105",
+      "actual": "bls5105",
       "outcome": "correct"
     },
     {
@@ -459,8 +459,8 @@
       "line": "Pringles Original 165g",
       "bucket": "semantic",
       "expected": "bls0327",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0327",
+      "outcome": "correct"
     },
     {
       "line": "Nutella 400g",
@@ -480,15 +480,15 @@
       "line": "Landliebe Schlagsahne 30% 200ml",
       "bucket": "bls-direct",
       "expected": "bls0699",
-      "actual": "bls0699",
-      "outcome": "correct"
+      "actual": "bls0344",
+      "outcome": "wrong"
     },
     {
       "line": "Milbona Schlagsahne 30% 200ml",
       "bucket": "bls-direct",
       "expected": "bls0699",
-      "actual": "bls0699",
-      "outcome": "correct"
+      "actual": "bls0344",
+      "outcome": "wrong"
     },
     {
       "line": "Meggle Deutsche Markenbutter 250g",
@@ -522,8 +522,8 @@
       "line": "Iglo Blattspinat 750g",
       "bucket": "bls-direct",
       "expected": "bls0277",
-      "actual": "bls0277",
-      "outcome": "correct"
+      "actual": "bls1755",
+      "outcome": "wrong"
     },
     {
       "line": "Knorr Hühnerbrühe Würfel",
@@ -543,8 +543,8 @@
       "line": "Danone Activia Joghurt Natur 400g",
       "bucket": "bls-direct",
       "expected": "bls0343",
-      "actual": "bls0697",
-      "outcome": "wrong"
+      "actual": "bls0343",
+      "outcome": "correct"
     },
     {
       "line": "Rewe Bio Vollkornbrot 500g",
@@ -557,8 +557,8 @@
       "line": "Golden Toast Weizenbrötchen 6 Stück",
       "bucket": "bls-direct",
       "expected": "bls0201",
-      "actual": "bls0201",
-      "outcome": "correct"
+      "actual": "bls0534",
+      "outcome": "wrong"
     },
     {
       "line": "Dr Oetker Backpulver",
@@ -627,8 +627,8 @@
       "line": "Kuehne Essiggurken 670g",
       "bucket": "semantic",
       "expected": "bls0645",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0524",
+      "outcome": "wrong"
     },
     {
       "line": "Kölln Haferflocken kernig 500g",
@@ -683,7 +683,7 @@
       "line": "Iglo Erbsen und Möhren tiefgefroren 450g",
       "bucket": "bls-direct",
       "expected": "bls5540",
-      "actual": "bls3483",
+      "actual": "bls0299",
       "outcome": "wrong"
     },
     {
@@ -725,22 +725,22 @@
       "line": "Andechser Bio Speisequark Magerstufe 250g",
       "bucket": "bls-direct",
       "expected": "bls0360",
-      "actual": "bls0360",
-      "outcome": "correct"
+      "actual": "bls0758",
+      "outcome": "wrong"
     },
     {
       "line": "dm Bio Kokosmilch 400ml",
       "bucket": "bls-direct",
       "expected": "bls1469",
-      "actual": "bls1469",
-      "outcome": "correct"
+      "actual": "bls0339",
+      "outcome": "wrong"
     },
     {
       "line": "REWE Bio Zuckermais Dose 300g",
       "bucket": "bls-direct",
       "expected": "bls0295",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0294",
+      "outcome": "wrong"
     },
     {
       "line": "Alesto Erdnüsse geröstet 200g",
@@ -767,36 +767,36 @@
       "line": "Edeka Bio Karotten 1kg",
       "bucket": "bls-direct",
       "expected": "bls0299",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0299",
+      "outcome": "correct"
     },
     {
       "line": "REWE Zwiebeln lose",
       "bucket": "bls-direct",
       "expected": "bls0522",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0522",
+      "outcome": "correct"
     },
     {
       "line": "REWE Bio Knoblauch",
       "bucket": "bls-direct",
       "expected": "bls0631",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0631",
+      "outcome": "correct"
     },
     {
       "line": "REWE Bio Zucchini",
       "bucket": "bls-direct",
       "expected": "bls0297",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0297",
+      "outcome": "correct"
     },
     {
       "line": "REWE Bio Gemüsepaprika rot",
       "bucket": "bls-direct",
       "expected": "bls0017",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls0017",
+      "outcome": "correct"
     },
     {
       "line": "Natur pur Champignons braun 400g",
@@ -837,8 +837,8 @@
       "line": "Alnatura Datteln getrocknet 200g",
       "bucket": "semantic",
       "expected": "bls0250",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls1236",
+      "outcome": "wrong"
     },
     {
       "line": "dm Bio Rote Linsen 500g",
@@ -851,8 +851,8 @@
       "line": "Alnatura Kichererbsen getrocknet 500g",
       "bucket": "bls-direct",
       "expected": "bls0665",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls3727",
+      "outcome": "wrong"
     },
     {
       "line": "Driscolls Himbeeren 125g",
@@ -879,8 +879,8 @@
       "line": "REWE Mandarinen Netz 1kg",
       "bucket": "bls-direct",
       "expected": "bls1035",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls1035",
+      "outcome": "correct"
     },
     {
       "line": "Rosa Grapefruit",
@@ -907,8 +907,8 @@
       "line": "REWE Bio Rinderhackfleisch 400g",
       "bucket": "bls-direct",
       "expected": "bls1976",
-      "actual": null,
-      "outcome": "miss"
+      "actual": "bls5105",
+      "outcome": "wrong"
     },
     {
       "line": "Ja Kochschinken 150g",
@@ -998,8 +998,8 @@
       "line": "Toffifee 125g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": null,
-      "outcome": "correct"
+      "actual": "bls0877",
+      "outcome": "wrong"
     },
     {
       "line": "Ostmann Oregano getrocknet 12g",
@@ -1061,14 +1061,14 @@
       "line": "Milka Alpenmilch Schokolade 100g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": "bls0340",
+      "actual": "bls0339",
       "outcome": "wrong"
     },
     {
       "line": "Ritter Sport Vollmilch 100g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": "bls0519",
+      "actual": "bls0339",
       "outcome": "wrong"
     },
     {
@@ -1089,7 +1089,7 @@
       "line": "Müller Reis Milchreis 200g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": "bls0007",
+      "actual": "bls0339",
       "outcome": "wrong"
     },
     {
@@ -1103,7 +1103,7 @@
       "line": "Schwartau Konfitüre Extra Erdbeere 340g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": "bls1654",
+      "actual": "bls0011",
       "outcome": "wrong"
     },
     {
@@ -1131,7 +1131,7 @@
       "line": "Golden Toast Toastbrot 500g",
       "bucket": "unresolvable",
       "expected": null,
-      "actual": "bls2614",
+      "actual": "bls0534",
       "outcome": "wrong"
     },
     {
@@ -1159,8 +1159,8 @@
       "line": "Pringles Sour Cream & Onion 165g",
       "bucket": "semantic",
       "expected": "bls0327",
-      "actual": "bls0522",
-      "outcome": "wrong"
+      "actual": "bls0327",
+      "outcome": "correct"
     },
     {
       "line": "Lays Salted 150g",

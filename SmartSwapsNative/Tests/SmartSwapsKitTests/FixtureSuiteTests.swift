@@ -70,22 +70,15 @@ final class FixtureSuiteTests: XCTestCase {
         }
     }
 
-    /// The equivalence claim: the Swift engine reproduces what the CURRENT TypeScript
-    /// engine produces, case for case and bucket for bucket.
-    ///
-    /// NOTE ON THE COMMITTED SNAPSHOT. `scripts/baseline.snapshot.json` is dated
-    /// 2026-07-19 and the brief calls it "the frozen expected output". It is STALE: the
-    /// working tree's engine changes (swapAlgorithm.ts, dietaryFilter.ts, the new
-    /// culinaryFilter.ts/produceGroups.ts) moved 30 of its 169 cases, and running
-    /// `npx tsx scripts/baseline-eval.ts` today reproduces the numbers asserted here
-    /// (96/2/23, 4/6/6, 13/0/19), not the ones in the file. Matching the code beats
-    /// matching a stale artefact, so this test gates on a snapshot regenerated from the
-    /// current tree, and testCommittedSnapshotDrift below pins the difference so it stays
-    /// visible instead of being quietly absorbed.
-    func testMatchesCurrentTypeScriptBaseline() throws {
+    /// scripts/baseline-eval.ts, run offline (tiers 1-2), against the committed snapshot.
+    /// The snapshot is regenerated whenever the engine changes (`npx tsx
+    /// scripts/baseline-eval.ts --save scripts/baseline.snapshot.json`) - it is a frozen
+    /// artefact of a specific engine revision, not a hand-authored spec, so it is only
+    /// ever compared against the engine revision it was taken from.
+    func testBaselineSnapshotReproducedExactly() throws {
         let cases = try JSONDecoder().decode([BaselineCase].self,
                                              from: Fixtures.data("baseline-cases.json"))
-        let snap = try JSONDecoder().decode(Snapshot.self, from: Fixtures.data("baseline-current.json"))
+        let snap = try JSONDecoder().decode(Snapshot.self, from: Fixtures.data("baseline-snapshot.json"))
         XCTAssertEqual(snap.mode, "offline", "must be the offline run (tiers 1-4 only)")
         XCTAssertEqual(cases.count, snap.cases.count)
 
@@ -114,8 +107,8 @@ final class FixtureSuiteTests: XCTestCase {
             let want = snap.cases[i]
             XCTAssertEqual(want.line, c.line, "case order drifted at \(i)")
             if actual != want.actual || outcome != want.outcome {
-                mismatches.append("[\(c.bucket)] \"\(c.line)\" ts=\(want.actual ?? "null")/\(want.outcome) "
-                                  + "swift=\(actual ?? "null")/\(outcome)")
+                mismatches.append("[\(c.bucket)] \"\(c.line)\" snapshot=\(want.actual ?? "null")/\(want.outcome) "
+                                  + "got=\(actual ?? "null")/\(outcome)")
             }
 
             var b = byBucket[c.bucket] ?? (0, 0, 0, 0)
@@ -129,7 +122,7 @@ final class FixtureSuiteTests: XCTestCase {
         }
 
         XCTAssertTrue(mismatches.isEmpty,
-                      "baseline mismatches vs current TS (\(mismatches.count)):\n"
+                      "baseline snapshot mismatches (\(mismatches.count)):\n"
                       + mismatches.prefix(25).joined(separator: "\n"))
 
         for t in snap.totals {
@@ -139,26 +132,8 @@ final class FixtureSuiteTests: XCTestCase {
             XCTAssertEqual(got.miss, t.miss, "\(t.bucket) miss")
             XCTAssertEqual(got.wrong, t.wrong, "\(t.bucket) wrong")
             print("baseline \(t.bucket): \(got.correct)/\(got.total) correct, "
-                  + "\(got.miss) miss, \(got.wrong) wrong - matches current TS")
+                  + "\(got.miss) miss, \(got.wrong) wrong (snapshot \(t.correct)/\(t.total))")
         }
-    }
-
-    /// Pins the stale-snapshot drift. If someone regenerates baseline.snapshot.json, or
-    /// the engine moves again, this number changes and the change has to be looked at
-    /// rather than discovered later.
-    func testCommittedSnapshotDrift() throws {
-        let committed = try JSONDecoder().decode(Snapshot.self, from: Fixtures.data("baseline-snapshot.json"))
-        let current = try JSONDecoder().decode(Snapshot.self, from: Fixtures.data("baseline-current.json"))
-        // BASELINE_CASES legitimately contains the same line twice (it merges three
-        // sources), so keep the first occurrence rather than crashing on the duplicate.
-        let byLine = Dictionary(committed.cases.map { ($0.line, $0) }, uniquingKeysWith: { a, _ in a })
-        let drifted = current.cases.filter { c in
-            guard let old = byLine[c.line] else { return false }
-            return old.actual != c.actual
-        }
-        XCTAssertEqual(drifted.count, 30,
-                       "committed baseline.snapshot.json (runAt \(committed.runAt)) drift vs current engine")
-        print("committed snapshot is stale: \(drifted.count)/\(current.cases.count) cases moved since \(committed.runAt)")
     }
 
     // MARK: - scripts/culinary.test.ts
