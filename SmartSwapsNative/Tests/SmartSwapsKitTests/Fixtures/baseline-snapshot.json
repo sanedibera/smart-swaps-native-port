@@ -1,0 +1,1215 @@
+{
+  "runAt": "2026-07-19T21:22:59.133Z",
+  "mode": "offline",
+  "totals": [
+    {
+      "bucket": "bls-direct",
+      "total": 121,
+      "correct": 97,
+      "miss": 11,
+      "wrong": 13,
+      "accuracy": 0.8016528925619835
+    },
+    {
+      "bucket": "semantic",
+      "total": 16,
+      "correct": 2,
+      "miss": 9,
+      "wrong": 5,
+      "accuracy": 0.125
+    },
+    {
+      "bucket": "unresolvable",
+      "total": 32,
+      "correct": 14,
+      "miss": 0,
+      "wrong": 18,
+      "accuracy": 0.4375
+    }
+  ],
+  "cases": [
+    {
+      "line": "10247 Berlin",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "13353 Berlin.",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "GL Skyr Frucht sort.500g",
+      "bucket": "bls-direct",
+      "expected": "bls0772",
+      "actual": "bls0772",
+      "outcome": "correct"
+    },
+    {
+      "line": "SKYR HIMB -CRANB",
+      "bucket": "bls-direct",
+      "expected": "bls0772",
+      "actual": "bls0772",
+      "outcome": "correct"
+    },
+    {
+      "line": "SKR VANILLE",
+      "bucket": "bls-direct",
+      "expected": "bls0772",
+      "actual": "bls0772",
+      "outcome": "correct"
+    },
+    {
+      "line": "Zeus Feta 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0090",
+      "actual": "bls0090",
+      "outcome": "correct"
+    },
+    {
+      "line": "EHFE Mozzarella oGt 125g",
+      "bucket": "bls-direct",
+      "expected": "bls0760",
+      "actual": "bls0760",
+      "outcome": "correct"
+    },
+    {
+      "line": "M... Mozzarella oGt 125g 1.38 B",
+      "bucket": "bls-direct",
+      "expected": "bls0760",
+      "actual": "bls0760",
+      "outcome": "correct"
+    },
+    {
+      "line": "AS Mozz.Sticks m.Dip 250g 1.79 B",
+      "bucket": "bls-direct",
+      "expected": "bls0760",
+      "actual": "bls0760",
+      "outcome": "correct"
+    },
+    {
+      "line": "MOZ2./BUEA MIN",
+      "bucket": "bls-direct",
+      "expected": "bls0760",
+      "actual": "bls0760",
+      "outcome": "correct"
+    },
+    {
+      "line": "GL SandwSHB Gouda oGt200g 2.59 B",
+      "bucket": "bls-direct",
+      "expected": "bls0352",
+      "actual": "bls0352",
+      "outcome": "correct"
+    },
+    {
+      "line": "CHESTER SKS",
+      "bucket": "bls-direct",
+      "expected": "bls0705",
+      "actual": "bls0705",
+      "outcome": "correct"
+    },
+    {
+      "line": "GL Sahne 30% 200g VLOG",
+      "bucket": "bls-direct",
+      "expected": "bls0699",
+      "actual": "bls0699",
+      "outcome": "correct"
+    },
+    {
+      "line": "Markenbutter sauer 250g 2.39 B",
+      "bucket": "bls-direct",
+      "expected": "bls0841",
+      "actual": "bls0841",
+      "outcome": "correct"
+    },
+    {
+      "line": "BIO WEIDEMTLCH",
+      "bucket": "bls-direct",
+      "expected": "bls0340",
+      "actual": "bls0340",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bio BB Teigwaren sort. 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0009",
+      "actual": "bls0009",
+      "outcome": "correct"
+    },
+    {
+      "line": "Mondo Ital.Fusilli 500g 1.58 B",
+      "bucket": "bls-direct",
+      "expected": "bls0009",
+      "actual": "bls0009",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bio BB rot.Lins.Fusi.250g",
+      "bucket": "bls-direct",
+      "expected": "bls1056",
+      "actual": "bls1056",
+      "outcome": "correct"
+    },
+    {
+      "line": "JAY BASMATI REIS",
+      "bucket": "bls-direct",
+      "expected": "bls0007",
+      "actual": "bls0007",
+      "outcome": "correct"
+    },
+    {
+      "line": "GOLDNAIS",
+      "bucket": "bls-direct",
+      "expected": "bls0005",
+      "actual": "bls0005",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bert.Olivenoel sort.500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0830",
+      "actual": "bls0830",
+      "outcome": "correct"
+    },
+    {
+      "line": "Carat Meersalz Muehle 110g",
+      "bucket": "bls-direct",
+      "expected": "bls0850",
+      "actual": "bls0850",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ostmann Pfefferkoer.wei. 60g",
+      "bucket": "bls-direct",
+      "expected": "bls0401",
+      "actual": "bls0401",
+      "outcome": "correct"
+    },
+    {
+      "line": "KIDNEY BOHNEN",
+      "bucket": "bls-direct",
+      "expected": "bls0658",
+      "actual": "bls0658",
+      "outcome": "correct"
+    },
+    {
+      "line": "ACETO BALSAMICO",
+      "bucket": "bls-direct",
+      "expected": "bls1148",
+      "actual": "bls1148",
+      "outcome": "correct"
+    },
+    {
+      "line": "Tomaten 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0293",
+      "actual": "bls0293",
+      "outcome": "correct"
+    },
+    {
+      "line": "TOMATE SNACK",
+      "bucket": "bls-direct",
+      "expected": "bls0293",
+      "actual": "bls0293",
+      "outcome": "correct"
+    },
+    {
+      "line": "PASSIERT. TOMATEN",
+      "bucket": "bls-direct",
+      "expected": "bls0857",
+      "actual": "bls0857",
+      "outcome": "correct"
+    },
+    {
+      "line": "BioBio Tomatenmark 200g",
+      "bucket": "bls-direct",
+      "expected": "bls1149",
+      "actual": "bls1149",
+      "outcome": "correct"
+    },
+    {
+      "line": "BE Tomaten ganz,geschaelt 400g",
+      "bucket": "bls-direct",
+      "expected": "bls0636",
+      "actual": "bls0636",
+      "outcome": "correct"
+    },
+    {
+      "line": "Apfel Pink Lady Lose",
+      "bucket": "bls-direct",
+      "expected": "bls0237",
+      "actual": "bls0237",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bananen Lose 0.89 B",
+      "bucket": "bls-direct",
+      "expected": "bls0249",
+      "actual": "bls0249",
+      "outcome": "correct"
+    },
+    {
+      "line": "BANANE OHIQUITA'",
+      "bucket": "bls-direct",
+      "expected": "bls0249",
+      "actual": "bls0249",
+      "outcome": "correct"
+    },
+    {
+      "line": "Zitronen 500g VKE 1.00 B",
+      "bucket": "bls-direct",
+      "expected": "bls1031",
+      "actual": "bls1031",
+      "outcome": "correct"
+    },
+    {
+      "line": "GURKE MINI",
+      "bucket": "bls-direct",
+      "expected": "bls0524",
+      "actual": "bls0524",
+      "outcome": "correct"
+    },
+    {
+      "line": "SALATBEUTEL REWE",
+      "bucket": "bls-direct",
+      "expected": "bls0274",
+      "actual": "bls0274",
+      "outcome": "correct"
+    },
+    {
+      "line": "Suppengemuese 500g",
+      "bucket": "bls-direct",
+      "expected": "bls2399",
+      "actual": "bls2399",
+      "outcome": "correct"
+    },
+    {
+      "line": "Hackfleisch gem. 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0453",
+      "actual": "bls0453",
+      "outcome": "correct"
+    },
+    {
+      "line": "BIO HACK SW RO",
+      "bucket": "bls-direct",
+      "expected": "bls0453",
+      "actual": "bls0453",
+      "outcome": "correct"
+    },
+    {
+      "line": "Hackfleisch gemischt 400g",
+      "bucket": "bls-direct",
+      "expected": "bls5105",
+      "actual": "bls5105",
+      "outcome": "correct"
+    },
+    {
+      "line": "Haehnchen-Innenfilet 400g",
+      "bucket": "bls-direct",
+      "expected": "bls0951",
+      "actual": "bls0951",
+      "outcome": "correct"
+    },
+    {
+      "line": "Kochschinken 150g 1.89 B",
+      "bucket": "bls-direct",
+      "expected": "bls0992",
+      "actual": "bls0992",
+      "outcome": "correct"
+    },
+    {
+      "line": "Edelsalami 150g 1.79 B",
+      "bucket": "bls-direct",
+      "expected": "bls0978",
+      "actual": "bls0978",
+      "outcome": "correct"
+    },
+    {
+      "line": "EDELSAAMI",
+      "bucket": "bls-direct",
+      "expected": "bls0978",
+      "actual": "bls0978",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bierschinken 150g 1.19 B",
+      "bucket": "bls-direct",
+      "expected": "bls4021",
+      "actual": "bls4021",
+      "outcome": "correct"
+    },
+    {
+      "line": "Wa.Stein.Pizza Thunf.360g",
+      "bucket": "bls-direct",
+      "expected": "bls7140",
+      "actual": "bls7140",
+      "outcome": "correct"
+    },
+    {
+      "line": "NIPizzaSpeciale2ST690g 3.59 B",
+      "bucket": "bls-direct",
+      "expected": "bls7135",
+      "actual": "bls7135",
+      "outcome": "correct"
+    },
+    {
+      "line": "Spinat-Ricotta-Tortelloni400g 1.89 B",
+      "bucket": "bls-direct",
+      "expected": "bls0148",
+      "actual": "bls0148",
+      "outcome": "correct"
+    },
+    {
+      "line": "NI Gnocchi/Tagl.sort.600g 1.99 B",
+      "bucket": "bls-direct",
+      "expected": "bls4492",
+      "actual": "bls4492",
+      "outcome": "correct"
+    },
+    {
+      "line": "Gran.Pr.pu.Gr. sort. 500g 7.95 B",
+      "bucket": "bls-direct",
+      "expected": "bls2962",
+      "actual": "bls2962",
+      "outcome": "correct"
+    },
+    {
+      "line": "BO Dinkelvollkornbrot 500g 1.99 B",
+      "bucket": "bls-direct",
+      "expected": "bls2123",
+      "actual": "bls2123",
+      "outcome": "correct"
+    },
+    {
+      "line": "KW 6er Broetchen 300g 0.69 B",
+      "bucket": "bls-direct",
+      "expected": "bls0201",
+      "actual": "bls0201",
+      "outcome": "correct"
+    },
+    {
+      "line": "KR. BOTTERBAGUETT",
+      "bucket": "bls-direct",
+      "expected": "bls2246",
+      "actual": "bls2246",
+      "outcome": "correct"
+    },
+    {
+      "line": "KNOBLAUCHBAGUETT",
+      "bucket": "bls-direct",
+      "expected": "bls2246",
+      "actual": "bls2246",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ostm. Chiliflocken 45g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Coca-Cola 1.5L",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls1947",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Haribo Goldbären 200g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Barilla Spaghetti 500g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0009",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Bertolli Olivenöl Extra Vergine 500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0830",
+      "actual": "bls0830",
+      "outcome": "correct"
+    },
+    {
+      "line": "Alnatura Bio Olivenöl nativ extra 500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0830",
+      "actual": "bls0830",
+      "outcome": "correct"
+    },
+    {
+      "line": "Zeus Feta 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0090",
+      "actual": "bls0090",
+      "outcome": "correct"
+    },
+    {
+      "line": "Pringles Original 165g",
+      "bucket": "semantic",
+      "expected": "bls0327",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Nutella 400g",
+      "bucket": "semantic",
+      "expected": "bls0424",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Uncle Bens Basmati Reis 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0007",
+      "actual": "bls0007",
+      "outcome": "correct"
+    },
+    {
+      "line": "Landliebe Schlagsahne 30% 200ml",
+      "bucket": "bls-direct",
+      "expected": "bls0699",
+      "actual": "bls0699",
+      "outcome": "correct"
+    },
+    {
+      "line": "Milbona Schlagsahne 30% 200ml",
+      "bucket": "bls-direct",
+      "expected": "bls0699",
+      "actual": "bls0699",
+      "outcome": "correct"
+    },
+    {
+      "line": "Meggle Deutsche Markenbutter 250g",
+      "bucket": "bls-direct",
+      "expected": "bls0387",
+      "actual": "bls3080",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Alpro Sojadrink ungesüßt 1L",
+      "bucket": "bls-direct",
+      "expected": "bls0668",
+      "actual": "bls0668",
+      "outcome": "correct"
+    },
+    {
+      "line": "Barilla Penne 500g",
+      "bucket": "semantic",
+      "expected": "bls0009",
+      "actual": "bls0009",
+      "outcome": "correct"
+    },
+    {
+      "line": "De Cecco Fusilli 500g",
+      "bucket": "semantic",
+      "expected": "bls0009",
+      "actual": "bls0009",
+      "outcome": "correct"
+    },
+    {
+      "line": "Iglo Blattspinat 750g",
+      "bucket": "bls-direct",
+      "expected": "bls0277",
+      "actual": "bls0277",
+      "outcome": "correct"
+    },
+    {
+      "line": "Knorr Hühnerbrühe Würfel",
+      "bucket": "bls-direct",
+      "expected": "bls0417",
+      "actual": "bls0507",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Maggi Gemüsebrühe Würfel",
+      "bucket": "bls-direct",
+      "expected": "bls0416",
+      "actual": "bls0508",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Danone Activia Joghurt Natur 400g",
+      "bucket": "bls-direct",
+      "expected": "bls0343",
+      "actual": "bls0697",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Rewe Bio Vollkornbrot 500g",
+      "bucket": "bls-direct",
+      "expected": "bls2123",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Golden Toast Weizenbrötchen 6 Stück",
+      "bucket": "bls-direct",
+      "expected": "bls0201",
+      "actual": "bls0201",
+      "outcome": "correct"
+    },
+    {
+      "line": "Dr Oetker Backpulver",
+      "bucket": "bls-direct",
+      "expected": "bls0403",
+      "actual": "bls0403",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ja Zucker weiß 1kg",
+      "bucket": "bls-direct",
+      "expected": "bls0418",
+      "actual": "bls0418",
+      "outcome": "correct"
+    },
+    {
+      "line": "Teekanne Schwarzer Tee 20 Beutel",
+      "bucket": "bls-direct",
+      "expected": "bls0371",
+      "actual": "bls0371",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bahlsen Honig 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0037",
+      "actual": "bls0037",
+      "outcome": "correct"
+    },
+    {
+      "line": "Alnatura Bio Honig 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0037",
+      "actual": "bls0037",
+      "outcome": "correct"
+    },
+    {
+      "line": "Skippy Erdnussbutter 340g",
+      "bucket": "bls-direct",
+      "expected": "bls0303",
+      "actual": "bls0227",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Develey Tomatenketchup 500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0396",
+      "actual": "bls0396",
+      "outcome": "correct"
+    },
+    {
+      "line": "Hellmanns Mayonnaise 400ml",
+      "bucket": "bls-direct",
+      "expected": "bls0858",
+      "actual": "bls0858",
+      "outcome": "correct"
+    },
+    {
+      "line": "Loewensenf Mittelscharf 250ml",
+      "bucket": "semantic",
+      "expected": "bls0395",
+      "actual": "bls0853",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Kuehne Essiggurken 670g",
+      "bucket": "semantic",
+      "expected": "bls0645",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Kölln Haferflocken kernig 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0002",
+      "actual": "bls0002",
+      "outcome": "correct"
+    },
+    {
+      "line": "Alete Apfelmus 200g",
+      "bucket": "bls-direct",
+      "expected": "bls4908",
+      "actual": "bls4908",
+      "outcome": "correct"
+    },
+    {
+      "line": "Rapunzel Sonnenblumenkerne 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0515",
+      "actual": "bls0515",
+      "outcome": "correct"
+    },
+    {
+      "line": "Rapunzel Sonnenblumenöl 500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0836",
+      "actual": "bls0836",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bio Company Rapsöl 500ml",
+      "bucket": "bls-direct",
+      "expected": "bls0833",
+      "actual": "bls0833",
+      "outcome": "correct"
+    },
+    {
+      "line": "Seeberger Kuerbiskerne 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0312",
+      "actual": "bls0312",
+      "outcome": "correct"
+    },
+    {
+      "line": "John West Thunfisch im eigenen Saft 185g",
+      "bucket": "bls-direct",
+      "expected": "bls1162",
+      "actual": "bls1162",
+      "outcome": "correct"
+    },
+    {
+      "line": "Iglo Erbsen und Möhren tiefgefroren 450g",
+      "bucket": "bls-direct",
+      "expected": "bls5540",
+      "actual": "bls3483",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Iglo TK Erbsen 450g",
+      "bucket": "bls-direct",
+      "expected": "bls0644",
+      "actual": "bls1049",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Landjäger 200g",
+      "bucket": "bls-direct",
+      "expected": "bls2523",
+      "actual": "bls2523",
+      "outcome": "correct"
+    },
+    {
+      "line": "Kikkoman Sojasauce 150ml",
+      "bucket": "bls-direct",
+      "expected": "bls0397",
+      "actual": "bls0397",
+      "outcome": "correct"
+    },
+    {
+      "line": "Modena Balsamico Essig 250ml",
+      "bucket": "bls-direct",
+      "expected": "bls1148",
+      "actual": "bls1148",
+      "outcome": "correct"
+    },
+    {
+      "line": "Homann Sauerrahm 200g",
+      "bucket": "bls-direct",
+      "expected": "bls1074",
+      "actual": "bls1077",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Andechser Bio Speisequark Magerstufe 250g",
+      "bucket": "bls-direct",
+      "expected": "bls0360",
+      "actual": "bls0360",
+      "outcome": "correct"
+    },
+    {
+      "line": "dm Bio Kokosmilch 400ml",
+      "bucket": "bls-direct",
+      "expected": "bls1469",
+      "actual": "bls1469",
+      "outcome": "correct"
+    },
+    {
+      "line": "REWE Bio Zuckermais Dose 300g",
+      "bucket": "bls-direct",
+      "expected": "bls0295",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Alesto Erdnüsse geröstet 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0227",
+      "actual": "bls0227",
+      "outcome": "correct"
+    },
+    {
+      "line": "Chiquita Banane",
+      "bucket": "bls-direct",
+      "expected": "bls0249",
+      "actual": "bls0249",
+      "outcome": "correct"
+    },
+    {
+      "line": "Pink Lady Apfel",
+      "bucket": "bls-direct",
+      "expected": "bls0237",
+      "actual": "bls0237",
+      "outcome": "correct"
+    },
+    {
+      "line": "Edeka Bio Karotten 1kg",
+      "bucket": "bls-direct",
+      "expected": "bls0299",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "REWE Zwiebeln lose",
+      "bucket": "bls-direct",
+      "expected": "bls0522",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "REWE Bio Knoblauch",
+      "bucket": "bls-direct",
+      "expected": "bls0631",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "REWE Bio Zucchini",
+      "bucket": "bls-direct",
+      "expected": "bls0297",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "REWE Bio Gemüsepaprika rot",
+      "bucket": "bls-direct",
+      "expected": "bls0017",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Natur pur Champignons braun 400g",
+      "bucket": "bls-direct",
+      "expected": "bls0332",
+      "actual": "bls0332",
+      "outcome": "correct"
+    },
+    {
+      "line": "Alesto Walnusskerne 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0512",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Alesto Mandeln natur 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0650",
+      "actual": "bls1244",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Alesto Cashewkerne 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0308",
+      "actual": "bls0308",
+      "outcome": "correct"
+    },
+    {
+      "line": "Alesto Rosinen 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0599",
+      "actual": "bls5110",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Alnatura Datteln getrocknet 200g",
+      "bucket": "semantic",
+      "expected": "bls0250",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "dm Bio Rote Linsen 500g",
+      "bucket": "bls-direct",
+      "expected": "bls1056",
+      "actual": "bls6891",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Alnatura Kichererbsen getrocknet 500g",
+      "bucket": "bls-direct",
+      "expected": "bls0665",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Driscolls Himbeeren 125g",
+      "bucket": "bls-direct",
+      "expected": "bls0012",
+      "actual": "bls0012",
+      "outcome": "correct"
+    },
+    {
+      "line": "Bio Heidelbeeren 125g",
+      "bucket": "bls-direct",
+      "expected": "bls0083",
+      "actual": "bls0083",
+      "outcome": "correct"
+    },
+    {
+      "line": "Zespri Kiwi",
+      "bucket": "bls-direct",
+      "expected": "bls0257",
+      "actual": "bls0257",
+      "outcome": "correct"
+    },
+    {
+      "line": "REWE Mandarinen Netz 1kg",
+      "bucket": "bls-direct",
+      "expected": "bls1035",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Rosa Grapefruit",
+      "bucket": "bls-direct",
+      "expected": "bls1034",
+      "actual": "bls1034",
+      "outcome": "correct"
+    },
+    {
+      "line": "Wassermelone",
+      "bucket": "bls-direct",
+      "expected": "bls0605",
+      "actual": "bls0605",
+      "outcome": "correct"
+    },
+    {
+      "line": "Wiesenhof Hähnchenbrustfilet 400g",
+      "bucket": "bls-direct",
+      "expected": "bls0951",
+      "actual": "bls2566",
+      "outcome": "wrong"
+    },
+    {
+      "line": "REWE Bio Rinderhackfleisch 400g",
+      "bucket": "bls-direct",
+      "expected": "bls1976",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Ja Kochschinken 150g",
+      "bucket": "bls-direct",
+      "expected": "bls0992",
+      "actual": "bls0992",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ja Salami 150g",
+      "bucket": "bls-direct",
+      "expected": "bls0978",
+      "actual": "bls0978",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ja Frühstücksspeck 150g",
+      "bucket": "bls-direct",
+      "expected": "bls2697",
+      "actual": "bls4120",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Meica Wiener Würstchen",
+      "bucket": "bls-direct",
+      "expected": "bls0499",
+      "actual": "bls0499",
+      "outcome": "correct"
+    },
+    {
+      "line": "Ja Bockwurst",
+      "bucket": "bls-direct",
+      "expected": "bls4534",
+      "actual": "bls4534",
+      "outcome": "correct"
+    },
+    {
+      "line": "Chester Scheiben 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0705",
+      "actual": "bls0705",
+      "outcome": "correct"
+    },
+    {
+      "line": "Gouda in Scheiben 200g",
+      "bucket": "bls-direct",
+      "expected": "bls0352",
+      "actual": "bls0352",
+      "outcome": "correct"
+    },
+    {
+      "line": "Galbani Mozzarella 125g",
+      "bucket": "bls-direct",
+      "expected": "bls0760",
+      "actual": "bls0760",
+      "outcome": "correct"
+    },
+    {
+      "line": "Red Bull Energy Drink 250ml",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Bifi Wurst Snack Stick",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls2712",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Snickers Riegel 50g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls3930",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Kinder Schokolade 8 Riegel",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0879",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Toffifee 125g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Ostmann Oregano getrocknet 12g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Ostmann Currypulver 40g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Ostmann Paprika edelsüß 50g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0016",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Elmex Kaugummi",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Persil Waschmittel 20WL",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Dove Duschgel 250ml",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Fanta Orange 1.5L",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0608",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Sprite 1.5L",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Milka Alpenmilch Schokolade 100g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0340",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Ritter Sport Vollmilch 100g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0519",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Frosta Rahmspinat 450g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0277",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Ehrmann Almighurt Erdbeere 150g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0011",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Müller Reis Milchreis 200g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0007",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Jacobs Kaffee gemahlen 500g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0366",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Schwartau Konfitüre Extra Erdbeere 340g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls1654",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Zentis Konfitüre extra Kirsche 225g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls1654",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Werz Dinkelmehl 1kg",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Deutsche See Lachsfilet TK 400g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls0446",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Golden Toast Toastbrot 500g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls2614",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Coppenrath Feingebäck Kekse 200g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": "bls1956",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Lindt Excellence 70% Kakao 100g",
+      "bucket": "unresolvable",
+      "expected": null,
+      "actual": null,
+      "outcome": "correct"
+    },
+    {
+      "line": "Doritos Nacho Cheese 170g",
+      "bucket": "semantic",
+      "expected": "bls0572",
+      "actual": "bls0026",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Pringles Sour Cream & Onion 165g",
+      "bucket": "semantic",
+      "expected": "bls0327",
+      "actual": "bls0522",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Lays Salted 150g",
+      "bucket": "semantic",
+      "expected": "bls0327",
+      "actual": "bls1879",
+      "outcome": "wrong"
+    },
+    {
+      "line": "Alpro Soya Original 1L",
+      "bucket": "semantic",
+      "expected": "bls0668",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Bens Original Basmati 500g",
+      "bucket": "semantic",
+      "expected": "bls0007",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Bertolli Extra Virgin 500ml",
+      "bucket": "semantic",
+      "expected": "bls0830",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Kikkoman Soy Sauce 150ml",
+      "bucket": "semantic",
+      "expected": "bls0397",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Quaker Oats 500g",
+      "bucket": "semantic",
+      "expected": "bls0002",
+      "actual": null,
+      "outcome": "miss"
+    },
+    {
+      "line": "Bonduelle Sweet Corn 300g",
+      "bucket": "semantic",
+      "expected": "bls0295",
+      "actual": "bls3244",
+      "outcome": "wrong"
+    }
+  ]
+}

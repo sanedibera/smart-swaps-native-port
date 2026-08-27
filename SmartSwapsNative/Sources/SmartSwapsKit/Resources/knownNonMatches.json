@@ -1,0 +1,20 @@
+{
+  "avocadooel": "Matched almond oil (Mandelöl) - wrong oil entirely; no avocado oil entry exists in foods.json.",
+  "harissa paste": "Matched a meat pâté (Pariser Pastete mit Mürbeteig) - harissa is a chili paste; no equivalent in foods.json.",
+  "koriander": "Matched a coriander soup (Rote-Linsensuppe mit Koriander), not the herb itself.",
+  "bacon vegan": "Matched literal pork (Schwein Speck/Rückenspeck roh) - opposite of the vegan product; a dietary-safety risk, not just an accuracy miss.",
+  "654576 b1o dinkel pasta": "Matched a bread roll (Dinkelbrötchen), not pasta.",
+  "barilla sauce": "Matched a dessert sauce (Rumsauce von Vanillesauce), not a pasta sauce.",
+  "herz honey peppers": "Matched pig heart (Schwein Herz, roh) - \"Herz\" is very likely a brand name here, not the German word for heart.",
+  "g&g choco chips": "Matched a full cookie product (Cookies mit Schokoladenstückchen), not a chocolate-chip baking ingredient.",
+  "mü doppeldecker": "Matched an unrelated burger product (Doppeldecker Burger).",
+  "fish. fr. w. cherry": "Ambiguous OCR text; no confident automated match is safe to guess.",
+  "ikemeat grill. cmo": "Ambiguous OCR text; no confident automated match is safe to guess.",
+  "koch hinters. - qs, 30": "Ambiguous OCR text; no confident automated match is safe to guess.",
+  "italienische gebacke": "Ambiguous OCR text; no confident automated match is safe to guess.",
+  "mixx max": "Matched a specific fat-percentage yogurt (Joghurt fettarm, mind. 1,5 % bis max. 1,8 % Fett) - likely fuzzy-matched on the literal word \"max\" inside the food's own description, not a real product association.",
+  "tnergy drink xxl": "Matched an unsweetened rice drink (Reisdrink ungesüßt) - \"tnergy\" is OCR-garbled \"Energy\" (Energy Drink XXL), not a rice drink.",
+  "energy green/ultra whi": "Matched a plum (Reineclaude roh) - completely unrelated to an energy drink.",
+  "yakult original 6x65ml": "Matched a meatloaf/liverloaf product (Fleischkäse einfach, fein/Original Bayerischer Leberkäse fein) - likely fuzzy-matched on the word \"Original\"; Yakult is a probiotic yogurt drink.",
+  "klc schälerbs.gelb": "Matched a sausage (Gelbwurst) - likely fuzzy-matched on \"gelb\"; \"Schälerbs.gelb\" is yellow split peas (Schälerbse gelb), not a sausage."
+}
